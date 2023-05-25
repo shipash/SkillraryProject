@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-25T13:16:45 IST" name="Default suite" finished-at="2023-05-25T13:17:06 IST" duration-ms="21090">
+  <suite started-at="2023-05-25T13:51:58 IST" name="Default suite" finished-at="2023-05-25T13:52:31 IST" duration-ms="32878">
     <groups>
     </groups>
-    <test started-at="2023-05-25T13:16:45 IST" name="Default test" finished-at="2023-05-25T13:17:06 IST" duration-ms="21090">
-      <class name="testScripts.SendContactDetailsTest">
-        <test-method is-config="true" signature="classConfig()[pri:0, instance:testScripts.SendContactDetailsTest@16610890]" started-at="2023-05-25T13:16:45 IST" name="classConfig" finished-at="2023-05-25T13:16:47 IST" duration-ms="1825" status="PASS">
+    <test started-at="2023-05-25T13:51:58 IST" name="Default test" finished-at="2023-05-25T13:52:31 IST" duration-ms="32878">
+      <class name="testScripts.AddTestingCourseToMyCartTest">
+        <test-method is-config="true" signature="classConfig()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@16610890]" started-at="2023-05-25T13:51:58 IST" name="classConfig" finished-at="2023-05-25T13:52:00 IST" duration-ms="1802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classConfig -->
-        <test-method is-config="true" signature="methodConfig()[pri:0, instance:testScripts.SendContactDetailsTest@16610890]" started-at="2023-05-25T13:16:47 IST" name="methodConfig" finished-at="2023-05-25T13:16:57 IST" duration-ms="10066" status="PASS">
+        <test-method is-config="true" signature="methodConfig()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@16610890]" started-at="2023-05-25T13:52:00 IST" name="methodConfig" finished-at="2023-05-25T13:52:08 IST" duration-ms="7595" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodConfig -->
-        <test-method signature="sendContactDetailsTest()[pri:0, instance:testScripts.SendContactDetailsTest@16610890]" started-at="2023-05-25T13:16:57 IST" name="sendContactDetailsTest" finished-at="2023-05-25T13:17:05 IST" duration-ms="8303" status="PASS">
+        <test-method signature="addPythonToMyCart()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@16610890]" started-at="2023-05-25T13:52:08 IST" name="addPythonToMyCart" finished-at="2023-05-25T13:52:30 IST" duration-ms="22162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sendContactDetailsTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@16610890]" started-at="2023-05-25T13:17:05 IST" name="methodTearDown" finished-at="2023-05-25T13:17:06 IST" duration-ms="816" status="PASS">
+        </test-method> <!-- addPythonToMyCart -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@16610890]" started-at="2023-05-25T13:52:30 IST" name="methodTearDown" finished-at="2023-05-25T13:52:31 IST" duration-ms="1224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@16610890]" started-at="2023-05-25T13:17:06 IST" name="classTearDown" finished-at="2023-05-25T13:17:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@16610890]" started-at="2023-05-25T13:52:31 IST" name="classTearDown" finished-at="2023-05-25T13:52:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
-      </class> <!-- testScripts.SendContactDetailsTest -->
+      </class> <!-- testScripts.AddTestingCourseToMyCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

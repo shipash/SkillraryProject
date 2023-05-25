@@ -1,6 +1,5 @@
 package testScripts;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -31,7 +30,7 @@ public class AddTestingCourseToMyCartTest extends BaseClass {
 		
 		testing.clickFacebook();
 		
-		String face=driver.findElement(By.xpath("//span[contains(@class,'xg8j3zb')]")).getText();
+		String face=facebook.getPageHeader();
 		soft.assertEquals(face, "Connect with SkillRary on Facebook");
 		
 		soft.assertAll();

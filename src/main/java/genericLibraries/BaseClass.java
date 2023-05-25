@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import pomClasses.ContactUsPage;
+import pomClasses.FacebookLoginPage;
 import pomClasses.SeleniumTrainingPage;
 import pomClasses.SkillraryDemoAppPage;
 import pomClasses.SkillraryHomePage;
@@ -24,6 +25,7 @@ public class BaseClass
 	protected SeleniumTrainingPage selenium;
 	protected TestingPage testing;
 	protected ContactUsPage contact;
+	protected FacebookLoginPage facebook;
 	
 	
 	//@BeforeSuite
@@ -54,6 +56,7 @@ public class BaseClass
 			selenium=new SeleniumTrainingPage(driver);
 			testing =new TestingPage(driver);
 			contact= new ContactUsPage(driver);
+			facebook=new FacebookLoginPage(driver);
 			
 	}
 		
