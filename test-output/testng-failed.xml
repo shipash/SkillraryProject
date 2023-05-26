@@ -12,24 +12,6 @@
           <include name="sendContactDetailsTest"/>
         </methods>
       </class> <!-- testScripts.SendContactDetailsTest -->
-      <class name="testScripts.AddToCartTest">
-        <methods>
-          <include name="methodConfig"/>
-          <include name="methodTearDown"/>
-          <include name="classConfig"/>
-          <include name="classTearDown"/>
-          <include name="addToCartTest"/>
-        </methods>
-      </class> <!-- testScripts.AddToCartTest -->
-      <class name="testScripts.AddTestingCourseToMyCartTest">
-        <methods>
-          <include name="methodConfig"/>
-          <include name="methodTearDown"/>
-          <include name="classConfig"/>
-          <include name="classTearDown"/>
-          <include name="addPythonToMyCart"/>
-        </methods>
-      </class> <!-- testScripts.AddTestingCourseToMyCartTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
